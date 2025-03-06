@@ -1,8 +1,9 @@
 import React from "react";
+import { Row } from "../types/types";
 
 // Define the props for the TableHeader component
 interface TableHeaderProps {
-    data: any[];
+    data: Row[];
     selectedRows: string[];
     onSelectAll: () => void;
 }

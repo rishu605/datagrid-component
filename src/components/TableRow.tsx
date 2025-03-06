@@ -1,8 +1,9 @@
 import React from "react";
+import { Row } from "../types/types";
 
 // Define the props for the TableRow component
 interface TableRowProps {
-    row: any;
+    row: Row;
     isSelected: boolean;
     onSelectRow: (id: string) => void;
 }

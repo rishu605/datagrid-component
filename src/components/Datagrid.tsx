@@ -2,16 +2,7 @@ import React, { useState } from "react";
 import TableHeader from "./TableHeader";
 import TableRow from "./TableRow";
 import DownloadButton from "./DownloadButton";
-import { sampleData } from "./data";
-
-// Define the type for a row in the data grid
-type Row = {
-    id: string;
-    name: string;
-    device: string;
-    path: string;
-    status: 'scheduled' | 'available';
-};
+import { sampleData } from "../data/data";
 
 const DataGrid: React.FC = () => {
     // Initialize state for the data and selected rows
