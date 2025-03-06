@@ -3,6 +3,7 @@ import TableHeader from "./TableHeader";
 import TableRow from "./TableRow";
 import DownloadButton from "./DownloadButton";
 import { sampleData } from "../data/data";
+import { Row } from "../types/types";
 
 const DataGrid: React.FC = () => {
     // Initialize state for the data and selected rows
